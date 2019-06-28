@@ -11,6 +11,10 @@
 		A4EA266422C6620100B8941F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA266222C6620100B8941F /* Main.storyboard */; };
 		A4EA266622C6620200B8941F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EA266522C6620200B8941F /* Assets.xcassets */; };
 		A4EA266922C6620200B8941F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EA266722C6620200B8941F /* LaunchScreen.storyboard */; };
+		A4EA267722C6638A00B8941F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA267622C6638A00B8941F /* Movie.swift */; };
+		A4EA267922C666CA00B8941F /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA267822C666CA00B8941F /* MovieController.swift */; };
+		A4EA267B22C66FDA00B8941F /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA267A22C66FDA00B8941F /* MovieListTableViewController.swift */; };
+		A4EA267D22C6886C00B8941F /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA267C22C6886C00B8941F /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A4EA266522C6620200B8941F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4EA266822C6620200B8941F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EA266A22C6620200B8941F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4EA267622C6638A00B8941F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A4EA267822C666CA00B8941F /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		A4EA267A22C66FDA00B8941F /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		A4EA267C22C6886C00B8941F /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,6 @@
 				A4EA267222C6627B00B8941F /* View */,
 				A4EA267122C6627100B8941F /* Controller */,
 				A4EA267022C6626300B8941F /* Resources */,
-				A4EA266222C6620100B8941F /* Main.storyboard */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -84,6 +91,8 @@
 		A4EA267222C6627B00B8941F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA266222C6620100B8941F /* Main.storyboard */,
+				A4EA267C22C6886C00B8941F /* MovieTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 		A4EA267322C6628600B8941F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA267622C6638A00B8941F /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +108,7 @@
 		A4EA267422C6629300B8941F /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA267822C666CA00B8941F /* MovieController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -105,6 +116,7 @@
 		A4EA267522C6629B00B8941F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A4EA267A22C66FDA00B8941F /* MovieListTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -180,6 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EA267D22C6886C00B8941F /* MovieTableViewCell.swift in Sources */,
+				A4EA267B22C66FDA00B8941F /* MovieListTableViewController.swift in Sources */,
+				A4EA267922C666CA00B8941F /* MovieController.swift in Sources */,
+				A4EA267722C6638A00B8941F /* Movie.swift in Sources */,
 				A4EA265F22C6620100B8941F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
